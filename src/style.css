@@ -1,0 +1,99 @@
+body {
+  background-image: url(../images/bluesky.jpeg);
+  background-size: contain;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+ul,
+p {
+  list-style: none;
+  padding: 0;
+  color: #727272;
+  font-size: 18px;
+  font-family: "Playfair", serif;
+}
+
+strong {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+button {
+  background-color: #92d2f7;
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: none;
+  transition: all 200em ease-in-out;
+  box-shadow: 5px 5px 10px rgba(85, 133, 181, 0.6);
+}
+
+button:hover {
+  background: #3c799c;
+  cursor: pointer;
+}
+
+.app-wrapper {
+  max-width: 600px;
+  margin: 100px auto;
+}
+
+.weather-app {
+  background-color: #fff;
+  border: 1px solid rgba(57, 93, 130, 0.6);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(101, 155, 209, 0.7);
+}
+
+.overview {
+  margin: 20px 0;
+}
+
+.temperature {
+  position: relative;
+  font-size: 16px;
+  top: -18px;
+}
+
+.forecast-title {
+  margin: 30px 0;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+}
+
+.description {
+  padding-top: 8px;
+}
+
+.forecast {
+  border: 1px solid rgba(57, 93, 130, 0.6);
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.weather-forecast-date,
+.weather-forecast-temperature {
+  text-align: center;
+  font-family: "Playfair", serif;
+  font-size: 18px;
+}
+
+.forecast-img {
+  width: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+.max-temperature,
+.weather-forecast-date {
+  color: #92d2f7;
+}
